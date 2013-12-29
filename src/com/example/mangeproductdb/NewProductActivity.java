@@ -29,7 +29,7 @@ public class NewProductActivity extends Activity {
     EditText inputDesc;
  
     // url to create new product
-    private static String url_create_product = "http://api.androidhive.info/android_connect/create_product.php";
+    private static String url_create_product = "http://54.200.84.125/create_product.php";
  
     // JSON Node names
     private static final String TAG_SUCCESS = "success";

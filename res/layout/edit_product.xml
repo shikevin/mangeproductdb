@@ -57,10 +57,22 @@
         android:lines="4"
         android:gravity="top"/>
  
-    <!-- Button Create Product -->
-    <Button android:id="@+id/btnCreateProduct"
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Button Create Product -->
+    <Button android:id="@+id/btnSave"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Create Product"/>
+        android:text="Save Changes"
+        android:layout_weight="1"/>
+ 
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_weight="1"/>
+    </LinearLayout>
  
 </LinearLayout>

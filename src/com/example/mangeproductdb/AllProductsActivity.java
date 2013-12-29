@@ -58,7 +58,7 @@ public class AllProductsActivity extends ListActivity {
 
 				String pid = ((TextView)view.findViewById(R.id.pid)).getText().toString();
 
-				Intent in = new Intent(getApplicationContext(),)EditProductActivity.class);
+				Intent in = new Intent(getApplicationContext(),EditProductActivity.class);
 		in.putExtra(TAG_PID,  pid);
 		startActivityForResult(in,100);
 
